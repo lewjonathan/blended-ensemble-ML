@@ -14,20 +14,13 @@ Out-of-sample evaluation highlights several key observations:
 
 ## Backtest Results (Out-of-Sample)
 
-- Benchmark (SPY):
-  - Total Return: ~32%
-  - Volatility: ~17%
-  - Sharpe Ratio: ~0.8
+The benchmark and ensemble strategies were evaluated out-of-sample across time-series splits.
 
-- Ensemble Strategy (baseline):
-  - Produced positive but inconsistent returns across time windows
-  - Performance sensitive to thresholding and signal filtering
+- The benchmark produced positive long-run returns but experienced materially higher drawdown exposure.
+- The baseline ensemble strategy produced inconsistent results across time windows.
+- Confidence-filtered ensemble configurations improved risk-adjusted behavior in stronger configurations, but results remained sensitive to thresholding, signal filtering, and transaction-cost assumptions.
 
-- Ensemble with confidence filtering:
-  - Total Return: ~40–50% range depending on configuration
-  - Volatility: ~13–15%
-  - Sharpe Ratio: ~1.4–1.6 in stronger configurations
-
+Detailed performance figures, exact thresholds, and configuration-specific outputs have been omitted from this public version.
 ## Backtest Observations
 
 - Individual models showed unstable performance across time splits
