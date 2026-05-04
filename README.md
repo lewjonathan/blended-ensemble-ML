@@ -78,3 +78,5 @@ Focus is placed on understanding model behavior rather than maximizing reported 
 ## File
 
 - `Ensemble_ML_github.py` — core research pipeline
+
+Note: This repository contains a public redacted version. Exact implementation details, private parameters, diagnostic plots, and full outputs are omitted. The focus is on research workflow, validation structure, and interpretation.
