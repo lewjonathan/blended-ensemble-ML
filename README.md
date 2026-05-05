@@ -2,7 +2,7 @@
 
 This project explores ensemble-based classification for short-horizon equity index direction using a combination of machine learning models. The focus is on evaluating whether ensemble methods can produce more stable signals under time-series constraints and out-of-sample testing.
 
-Note: This repository contains a public redacted version. Exact implementation details, private parameters, diagnostic plots, and full outputs are omitted. The focus is on research workflow, validation structure, and interpretation.
+**Note: This repository contains a public redacted version. Exact implementation details, private parameters, diagnostic plots, and full outputs are omitted. The focus is on research workflow, validation structure, and interpretation.**
 
 
 ## Results Summary
